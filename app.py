@@ -12,7 +12,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
 import os 
-os.environ["OPENAI_API_KEY"] = "######"
+os.environ["OPENAI_API_KEY"] = "Add your Key here"
 
 def upload_htmls():
   loader = DirectoryLoader(path='hr_policies')
